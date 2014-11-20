@@ -1,0 +1,21 @@
+
+#liste .col {
+	float: left;
+	width: 33%;
+}
+
+#traduction {
+	padding-left:24px;
+	text-align: left;
+	font-size: 16px;
+	clear: both;
+}
+
+#traduction div.inner {
+	padding-left:24px;
+}
+
+#traduction div.inner div {
+	padding-top: 8px;
+}
+

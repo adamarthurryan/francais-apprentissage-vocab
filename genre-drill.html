@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>genre Drill</title>
+	<link rel="stylesheet" type="text/css" href="genre-drill.css" />
+	<script src="jquery-1.7.min.js"></script>
+	<script src="genre-drill.js"></script>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body id="home">
+<div id="frame">
+	<h1 id="title">Genre drill!</h1>
+
+	<div id="question">
+		<div class="inner"><span class="article"></span><span> </span><span class="mot"></span><span> </span><span class="genre"></span></div>
+	</div>
+	
+	<div id="traduction">
+		<div class="inner"></div>
+	</div>
+	
+	<div id="controls">
+		<div id="boutons">
+			<a id="bouton-traduction" href="#">montrez traduction</a>
+			<a id="bouton-reponse" href="#">montrez genre</a>
+			<a id="bouton-prochain" href="#">prochain mot</a>
+		</div>
+		<form id="filtre">
+			<label>niveau:</label>
+			<input id="filtre-niveau" type="text" value="all"/>
+			<a id="bouton-filtre-changes" href="#">changez filtre</a>
+		</form>
+	</div>
+</div>
+</body>
+</html>

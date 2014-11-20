@@ -1,0 +1,20 @@
+#frame {
+	width: 800px;
+}
+
+
+#liste .col {
+	float: left;
+	width: 33%;
+}
+
+.traduction {
+	padding-left:24px;
+	text-align: left;
+	font-size: 16px;
+	clear: both;
+}
+
+#liste .entree {
+	padding-bottom: 8px;
+}

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Genre liste</title>
+
+	
+	<script src="jquery/js/jquery-1.7.min.js"></script>
+	<script src="francais.js"></script>
+	<script src="traduction.js"></script>
+	<script src="genre-list.js"></script>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="basic.css" />
+	<link rel="stylesheet" type="text/css" href="genre-list.css" />
+
+<!--
+	<link rel="stylesheet" type="text/css" href="jquery/css/overcast/jquery-ui-1.8.16.custom.css" /> 
+	<script src="jquery/js/jquery-ui-1.8.16.custom.min.js"></script>
+-->
+</head>
+
+<body id="home">
+<div id="frame">
+	<h1 id="title">Genre liste</h1>
+
+	<div id="header" class="controls">
+		<form id="filtre">
+			<label>liste:</label>
+			<input id="filtre-liste" size="4" type="text" value="1"/>
+			<a id="bouton-filtre-changes" href="#">changez</a>
+		</form>
+	</div>
+	
+	<div id="main">
+		<div id="liste">
+			<div class="inner"><div class="col col1"></div><div class="col col2"></div><div class="col col3"></div></div>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>
