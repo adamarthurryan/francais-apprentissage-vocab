@@ -104,10 +104,10 @@ function misFiltreAuCourant() {
 function lisTraduction(mot) {
 	$("#traduction .inner").html("");
 
-	$.get("ba-simple-proxy-wordreference.php?url=http://api.wordreference.com/0.8/4026a/json/fren/"+escape(mot),  function(jsonTrad) {
+	$.get("externals/php-simple-proxy/ba-simple-proxy.php?url=http://api.wordreference.com/0.8/"+WR_API_KEY+"/json/fren/"+escape(mot),  function(jsonTrad) {
 	
 		//console.log("------------------------");
-		//console.log(jsonTrad);
+		console.log(jsonTrad);
 
 		var tradPrin = jsonTrad.contents.term0.Entries;
 
